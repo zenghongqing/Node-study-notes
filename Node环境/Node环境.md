@@ -41,11 +41,11 @@ Node.js框架的官方文档给出：module.exports才是module模块的真正�
 
 Node启动时会初始化一个事件循环，事件循环不会单独开一个线程，而是挂载到主线程。Node事件循环分为六个阶段：
 ```
-    <code class=" hljs mathematica">   ┌───────────────────────┐
+       ┌───────────────────────┐
     ┌─>│        timers         │
     │  └──────────┬────────────┘
     │  ┌──────────┴────────────┐
-    │  │     <span class="hljs-keyword">I</span>/<span class="hljs-keyword">O</span> callbacks     │
+    │  │     I/O callback      │
     │  └──────────┬────────────┘
     │  ┌──────────┴────────────┐
     │  │     idle, prepare     │
