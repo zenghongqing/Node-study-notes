@@ -60,11 +60,11 @@ Node启动时会初始化一个事件循环，事件循环不会单独开一个�
     └──┤    close callbacks    │
        └───────────────────────┘</code>
 ```
-timers阶段：这个阶段执行setTimeout(callback)和setInterval(callback)预定的callback；
-I/O callbacks阶段：执行除了close事件、被times阶段设定的callback以及setImmediate()设定的callbacks之外的callbacks；
-idle, prepare阶段：仅node内部使用；
-poll阶段: 获取新的I/O事件，适当的将node阻塞在这里；
-check阶段：执行setImmediate() 设定的callbacks;
+timers阶段：这个阶段执行setTimeout(callback)和setInterval(callback)预定的callback；<br>
+I/O callbacks阶段：执行除了close事件、被times阶段设定的callback以及setImmediate()设定的callbacks之外的callbacks；<br>
+idle, prepare阶段：仅node内部使用；<br>
+poll阶段: 获取新的I/O事件，适当的将node阻塞在这里；<br>
+check阶段：执行setImmediate() 设定的callbacks;<br>
 close callbacks阶段：比如socket.on(‘close’, callback)的callback会在这个阶段执行.
 
 每一个阶段有一个队列，event loop执行到该阶段时，会执行该队列里所有的callbacks，当队列callback为空时，或callback执行到上限的时，就跳至下一阶段进行执行。
