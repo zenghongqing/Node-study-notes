@@ -7,7 +7,7 @@ https://github.com/zenghongqing/Node-study-notes/blob/master/Node环境/Node环�
 https://github.com/zenghongqing/Node-study-notes/blob/master/Buffer和EventEmitter模块/buffer%2BEventEmitter.md
 #### 第四章 fs和Stream模块
 https://github.com/zenghongqing/Node-study-notes/blob/master/Stream和fs模块/Stream和fs模块.md
-#### 第五章 
+#### 第五章 child_process模块
 https://github.com/zenghongqing/Node-study-notes/blob/master/child_process/child_process.md
 #### 第六章 Node网络
 https://github.com/zenghongqing/Node-study-notes/blob/master/Node网络/net.md
