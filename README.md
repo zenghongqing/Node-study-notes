@@ -2,3 +2,4 @@
 #### 第一章 Node.js入门介绍
 https://github.com/zenghongqing/Node-study-notes/blob/master/Node基础入门总结/Node基础和入门总结.md
 #### 第二章 Node.js环境
+https://github.com/zenghongqing/Node-study-notes/blob/master/Node环境/Node环境.md
