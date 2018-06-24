@@ -13,3 +13,5 @@ https://github.com/zenghongqing/Node-study-notes/blob/master/child_process/child
 https://github.com/zenghongqing/Node-study-notes/blob/master/Node网络/net.md
 #### 第七章 Moongoose
 可参考: https://segmentfault.com/a/1190000012095054
+#### 第八章 GraphQL
+https://github.com/zenghongqing/Node-study-notes/blob/master/graphQL/GraphQL.md
