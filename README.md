@@ -15,3 +15,5 @@ https://github.com/zenghongqing/Node-study-notes/blob/master/Node网络/net.md
 可参考: https://segmentfault.com/a/1190000012095054
 #### 第八章 GraphQL
 https://github.com/zenghongqing/Node-study-notes/blob/master/graphQL/GraphQL.md
+#### 第九章 Node集群
+https://github.com/zenghongqing/Node-study-notes/blob/master/cluster/cluster.md
