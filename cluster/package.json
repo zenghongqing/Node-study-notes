@@ -1,0 +1,16 @@
+{
+  "name": "cluster111",
+  "version": "1.0.0",
+  "main": "cluster.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "http": "^0.0.0",
+    "os": "^0.1.1"
+  }
+}
